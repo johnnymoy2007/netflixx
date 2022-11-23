@@ -219,7 +219,7 @@ p.download {
 .section_four {
     background-color: black;
     color: white;
-    padding 40px;
+    padding: 40px;
 }
 
 .section_four_text {
@@ -258,23 +258,24 @@ margin-left: 30px;}
 }
 .section_five_text p{font-size: 30px;}
 
+.section_six{
+    background-color: black;
+    color: white;
+    padding: 50px;
 
-
-
-
-
-
-.input_button {
-    margin: 0 auto;
-    /* width: 1500px;
-    justify-content: center; */
-    margin-left: 400px;
-    margin-bottom: 30px;
-    ;
 }
-.input_button input {
-    width: 400px;
-    height: 50px;
+.heading_6{
+    padding-bottom: 20px;
+}
+ .ptag_6{
+    padding: 10px;
+ }
+
+
+
+section.section_six div.input_button input {
+    width: 300px;
+    height: 30px;
     background-color: white;
     padding: 4px;
     border-color: white;
@@ -283,6 +284,18 @@ margin-left: 30px;}
     margin-right: 0;
 
 }
+
+section.section_six div.input_button button {
+    /* display: inline-block; */
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    border-style: none;
+    font-size: large;
+    margin-left: -3px;
+}
+
 .ptag{margin-left: 30px;}
 summary{max-width: 1000px;
 border: 1px solid black;
@@ -292,3 +305,26 @@ background-color: rgb(59, 59, 59);
 list-style: none; align-items: center;justify-content: space-between;
 }
 summary img {margin-right: 0px;}
+
+.section_seven{
+    background-color: black;
+    color: white;
+}
+
+.section_seven_flex {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 0, auto;
+    
+
+    
+}
+.section_seven_div{
+    margin-left: 40px;
+    color: white;
+}
+.section_seven_ul{
+    list-style-type: none;
+}
